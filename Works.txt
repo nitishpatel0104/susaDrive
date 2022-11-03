@@ -1,0 +1,10 @@
+Work Done:-
+1. Admin login
+2. Add new Folder Done
+3. Showing added folder done
+4. Backend ready for uploading the document and sending emails
+
+Issues:-
+1. Document is uploading but Not know where.
+2. Email error unknown
+3. How to show the documents on susaDrive
