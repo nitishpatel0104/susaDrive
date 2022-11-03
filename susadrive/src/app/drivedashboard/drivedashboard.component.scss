@@ -1,0 +1,28 @@
+ 
+  .folder {
+    width: 185px;
+    display: inline-block;
+    margin: 15px 20px 15px 0;
+    font-weight: 500;
+  }
+  
+  .folder i {
+    color: rgba(0,0,0,0.54);
+    margin-top: -3px;
+  }
+  .card-panel {
+    padding: 15px 20px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  }
+  .card-panel:hover{
+    background-color: #96c9c9;
+  }
+  .container-fluid {
+    padding: 1rem 2.5rem;
+    margin: auto;
+  }
+
+  mat-card{
+    width: 185px;
+    font-weight: bold;
+  }

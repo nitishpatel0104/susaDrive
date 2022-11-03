@@ -1,0 +1,36 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+img{
+  height: 60px;
+  width: 60px;
+
+}
+.bar{
+  border: none;
+  background-color:rgb(245, 239, 231);
+  height: 45px;
+  font-size: large;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.searchIcon{
+  height: 47px;
+  width: 47px;
+  border: none;
+  background-color:rgb(245, 239, 231);
+  cursor: pointer;
+  
+}
+.searchIcon:hover{
+  background-color: rgb(223, 216, 208);
+  border-radius: 50%;
+}
+.filterIcon{
+  margin-right: 200px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.filterIcon:hover{
+  background-color: rgb(223, 216, 208);
+}

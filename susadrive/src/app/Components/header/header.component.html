@@ -1,0 +1,29 @@
+<mat-toolbar>
+   <img class="logo" matTooltip="Susa Drive" src="\assets\drive.png" alt="logo">
+    <span>Susa Drive</span>
+    <span class="example-spacer"></span>
+   
+        <input class="bar" type="text" placeholder="Search in Drive" style="width: 500px;">
+        <button type="submit" class="searchIcon">
+            <mat-icon matTooltip="Search">search</mat-icon>
+        </button>
+        <button class="filterIcon" mat-mini-fab color="grey" (click)="openDialog()" aria-label="Example icon button with a filter list icon">
+            <mat-icon matTooltip="Search Options">filter_list</mat-icon>
+          </button>
+          
+ 
+    <button mat-icon-button class="example-icon favorite-icon" >
+        <mat-icon matBadge="15" matBadgeColor="warn" matTooltip="Notification">notifications</mat-icon>
+    </button>
+    <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon matTooltip="SignOut">person_outline</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+            <mat-icon>exit_to_app</mat-icon>
+            Sign out
+        </button>
+    </mat-menu>
+  </mat-toolbar>
+ 
+  <mat-divider></mat-divider>

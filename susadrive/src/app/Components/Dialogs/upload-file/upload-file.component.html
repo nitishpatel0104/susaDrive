@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Upload a Document</h2>
+<mat-dialog-content class="mat-typography">
+    <form>
+        <label for="myfile">Select a document:</label>
+        <input type="file" id="myfile" name="myfile" [(ngModel)]="file" [ngModelOptions]="{standalone:true}"><br><br>
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial (click)="uploadFile()">Upload</button>
+</mat-dialog-actions>
